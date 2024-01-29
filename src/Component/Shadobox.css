@@ -1,0 +1,37 @@
+.main {
+  width: auto;
+  border: 2px solid black;
+  display: flex;
+  padding: 50px;
+}
+
+.controle {
+  height: auto;
+  width: auto;
+  border: 2px solid black;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: white;
+}
